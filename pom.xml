@@ -22,6 +22,7 @@
         <module>kafka-msg-queue</module>
         <module>kafka-connect</module>
         <module>kafka-stream</module>
+        <module>kafka-transaction</module>
     </modules>
 
     <properties>
