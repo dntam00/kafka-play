@@ -24,3 +24,7 @@ curl -X POST http://localhost:8083/connectors \
         -d @register-elasticsearch.json
 ```
 
+
+### References
+
+- https://medium.com/payu-engineering/unlocking-the-power-of-debezium-69ce9170f101
