@@ -8,11 +8,11 @@
     "connection.url": "http://elasticsearch:9200",
 
     "type.name": "_doc",
-    "key.ignore": "true",
+    "key.ignore": "false",
     "schema.ignore": "true",
-
     "transforms": "unwrap",
     "transforms.unwrap.type": "io.debezium.transforms.ExtractNewRecordState",
-    "transforms.unwrap.drop.tombstones": "true"
+    "transforms.unwrap.drop.tombstones": "false",
+    "behavior.on.null.values": "delete"
   }
 }
